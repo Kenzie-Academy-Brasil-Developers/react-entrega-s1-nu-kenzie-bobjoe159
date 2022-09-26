@@ -28,6 +28,7 @@ ul {
 
 .cardHeader img {
     height: 100%;
+    cursor: pointer;
 }
 
 .cardHeader h2 {
