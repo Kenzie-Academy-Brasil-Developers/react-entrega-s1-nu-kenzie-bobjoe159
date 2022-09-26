@@ -1,6 +1,6 @@
-import Header from './components/Header';
-import Form from './components/Form';
-import Summary from './components/Summary';
+import Header from '../Header';
+import Form from '../Form';
+import Summary from '../Summary';
 import { useState } from "react";
 import './Dashboard.css'
 

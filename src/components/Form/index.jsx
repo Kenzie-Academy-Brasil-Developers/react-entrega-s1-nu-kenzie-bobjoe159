@@ -15,7 +15,7 @@ const Form = ({setCard, setCardEntrada, setCardSaida, card, id}) => {
             value,
             type
         }
-        if (data.description === "" || data.value === "") {
+        if (data.description === "" || data.value === "" || data.value < 0) {
             return false
         }
         
